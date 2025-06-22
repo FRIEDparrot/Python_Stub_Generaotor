@@ -40,8 +40,13 @@ python pyi_generator.py <package_name> [output_dir] [--remove_if_exists]
 2. In PyCharm:  
    `Right-click stubs folder → Mark Directory as → Sources Root`  
 
-![IDE Configuration](img/Screenshot_2025-06-22_235206.png)  
-*Before/After stub generation in PyCharm*  
+<img src="img\Screenshot 2025-06-22 235206.png" alt="IDE Configuration" style="zoom:36%; center" />
+
+ 
+
+* Before/After stub generation in PyCharm 
+
+<img src="img\effect.png" alt="effect" style="zoom:33%;" />
 
 > 💡 **Recommendation**:  For complex C++ interfaces, the generated stubs may not be completely comprehensive. Manual review of the stub files is advised.
 
@@ -75,6 +80,10 @@ Python 模块类型存根生成工具（基于AI生成代码）
 2. PyCharm配置:  
    `右键存根目录 → Mark Directory as → Sources Root`  
 
-![IDE配置示例](img/Screenshot_2025-06-22_235206.png)  
+<img src="img\Screenshot 2025-06-22 235206.png" alt="IDE Configuration" style="zoom:36%; center" />
+
+添加存根前后 Pycharm 代码补全效果对比
+
+<center><img src="img\effect.png" alt="effect" style="zoom:33%;" /></center>
 
 > 💡 **建议**: 对复杂C++接口，往往生成的不是非常全面，可人工检查生成的存根文件
