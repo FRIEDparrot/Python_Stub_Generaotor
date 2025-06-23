@@ -40,6 +40,8 @@ python pyi_generator.py <package_name> [output_dir] [--remove_if_exists]
 2. In PyCharm:  
    `Right-click stubs folder → Mark Directory as → Sources Root`  
 
+3. You may restart Pycharm to make the completion into effective  
+
 <img src="img\Screenshot 2025-06-22 235206.png" alt="IDE Configuration" style="zoom:36%; center" />
 
  
@@ -49,6 +51,8 @@ python pyi_generator.py <package_name> [output_dir] [--remove_if_exists]
 <img src="img\effect.png" alt="effect" style="zoom:33%;" />
 
 > 💡 **Recommendation**:  For complex C++ interfaces, the generated stubs may not be completely comprehensive. Manual review of the stub files is advised.
+
+
 
 ---
 
@@ -79,6 +83,7 @@ Python 模块类型存根生成工具（基于AI生成代码）
    ```
 2. PyCharm配置:  
    `右键存根目录 → Mark Directory as → Sources Root`  
+3. 可能需要重启 Pycharm 使之生效 
 
 <img src="img\Screenshot 2025-06-22 235206.png" alt="IDE Configuration" style="zoom:36%; center" />
 
